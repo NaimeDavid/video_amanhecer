@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="assets/botoes/icons8-play-dentro-de-um-círculo-50.png">
+    <title>Controles de vídeo</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <video id="video1" class="video" src="assets/NASCER DO SOL _ NEVOEIRO _ PAISAGEM _ - (Vídeo Livre de Direitos Autorais).mp4" poster="./assets/planodefundo.png">
+        </video>
+
+        <div class="controle">
+
+            <img id="play" class="btn" onclick="play()" onmouseout="esconda()"
+                src="assets/botoes/icons8-play-dentro-de-um-círculo-50.png">
+            <img class="btn" onclick="stop()" onmouseout="esconda()" src="assets/botoes/icons8-stop-circled-50.png">
+            <img class="btn" onclick="retroceder()" onmouseout="esconda()"
+                src="assets/botoes/icons8-repetição-de-10-50.png">
+            <img class="btn" onclick="avancar()" onmouseout="esconda()"
+                src="assets/botoes/icons8-10-para-a-frente-50.png">
+            <img class="btn" onclick="diminuirV()" onmouseout="esconda()"
+                src="assets/botoes/icons8-rewind-button-round-50.png">
+            <img class="btn" onclick="aumentarV()" onmouseout="esconda()"
+                src="assets/botoes//icons8-rodada-de-avanço-rápido-50.png">
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
